@@ -1,0 +1,84 @@
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: teal !important;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #303030;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+.box{
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  padding: 6px 8px 6px 16px;
+  margin-left:100px;
+  margin-top: 100px;
+  margin-right: 100px;
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+
+.top{
+  margin-top: 100px;
+}
+.sidenav a {
+
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  display: block;
+margin-left: 10px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 400px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  height: 500px;
+  background-image: none;
+   background-color: teal
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.contains{
+  background-color: white;
+  display: inline-block;
+  height: 700px;
+  width:1300px;
+  margin-left: 400px;
+margin-right: 0px;
+}
+.innercontain{
+  height: 200px;
+  width: 400px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  display: inline-block;
+}
