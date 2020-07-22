@@ -1,6 +1,5 @@
 ###Simple React Js application#####
 
-<br>
 Functionalities:-
 1.Login
 2.Register
@@ -13,3 +12,5 @@ Build Info:-
 cd folder<br>
 npm install<br>
 npm start <br>
+
+ ####App by Adhiksha Thorat####
