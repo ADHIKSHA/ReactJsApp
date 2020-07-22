@@ -1,8 +1,9 @@
 ###Simple React Js application#####
 
 Functionalities:-
-1.Login
-2.Register
+<br>
+1.Login<br>
+2.Register<br>
 3.Home Page
 
 <br>
